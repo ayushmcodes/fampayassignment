@@ -43,7 +43,7 @@ created_at (TIMESTAMP)
 
 **Optimizations and Improvements**
 ```sh
-1.Created index published_at to sort data in desc, to retrive data faster in sorted manner
+1.Created index on published_at column to sort data in desc, to retrive data faster in sorted manner
 2.Created full text index on title and descripton to improve search to match better for partial queries
 ```
 
@@ -57,9 +57,7 @@ Before getting started with fampayassignment, ensure your runtime environment me
 
 
 ### How to run the application?
-
-Install fampayassignment using one of the following methods:
-
+ 
 **Build from source:**
 
 1. Clone the fampayassignment repository:
