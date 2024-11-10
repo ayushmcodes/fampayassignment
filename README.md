@@ -91,6 +91,11 @@ Install fampayassignment using one of the following methods:
 2.docker-compose up --build
 ```
 
+```sh
+Once the above cmds are executed successfully, application will start running, created a
+connection with db, create new table and index, and our apis will go live
+```
+
 ### Project Documentation
 
 **Scheduled YoutTube Search**
@@ -120,3 +125,5 @@ http://localhost:8080/api/v2/videos/search?q=live cricket
 
 This api is an optimized version of above api, which provided results which matches the partial search queries.This optimization is done using Full Text Index.
 ```
+
+
