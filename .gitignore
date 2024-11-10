@@ -1,0 +1,11 @@
+# Go build artifacts
+*.exe
+*.out
+*.test
+
+# IDE/Editor settings
+.idea/
+.vscode/
+
+# Dependency directories
+/vendor/
