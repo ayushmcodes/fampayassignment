@@ -9,7 +9,7 @@ import (
 )
 
 const (
-	host     = "db"
+	host     = "db"//if running dockerized container keep it as db otherwise keep it as localhost
 	port     = 5432
 	user     = "postgres"
 	password = "hello"
