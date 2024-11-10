@@ -92,8 +92,9 @@ Install fampayassignment using one of the following methods:
 ```
 
 ```sh
-Once the above cmds are executed successfully, application will start running, created a
-connection with db, create new table and index, and our apis will go live
+Once the above cmds are executed successfully, application will start running and
+create connection with db, create new video table and indexes, post that our
+apis will go live
 ```
 
 ### Project Documentation
