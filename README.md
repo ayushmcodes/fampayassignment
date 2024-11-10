@@ -121,10 +121,23 @@ http://localhost:8080/api/v1/videos/search?q=live cricket
 
 This api will provide the video data based on the search query provided.
 
+
 3.Optimized Search api
 http://localhost:8080/api/v2/videos/search?q=live cricket
 
 This api is an optimized version of above api, which provided results which matches the partial search queries.This optimization is done using Full Text Index.
 ```
+
+Original Data In DB
+
+![image](https://github.com/user-attachments/assets/66b9056d-43c0-4c08-a575-45c87cc83f73)
+
+When using basic search api
+
+![image](https://github.com/user-attachments/assets/adca32e0-87db-417a-a21b-140e08c285b0)
+
+When using optimized search api based on full index search
+
+![image](https://github.com/user-attachments/assets/bd2232e0-a24f-45c2-b358-de846704e5d9)
 
 
